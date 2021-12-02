@@ -1,8 +1,10 @@
 from setuptools import setup
 from Cython.Build import cythonize
 
+path = str
 setup(
-  ext_modules=cythonize("main.pyx")
+  name="Bmod"
+  ext_modules=cythonize(include_path=[])
 )
 
 
