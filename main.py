@@ -15,3 +15,5 @@ e = s.RESET_ALL
 colorama.init()
 
 ##I don't feel like creating another server today sooooo Python args it is!
+
+## C# Being used for Quest interactions, easier.
