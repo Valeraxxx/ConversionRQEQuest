@@ -14,18 +14,4 @@ w = f.RED
 e = s.RESET_ALL
 colorama.init()
 
-host = 'local host'
-port = 5000
-
-b = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-b.connect(('some random string for now', port))
-
-message = b.recv(1104)
-
-while message:
-  print("Server:" + message.decode())
-  msg.recv(1104)
-
-
-b.close()
+##I don't feel like creating another server today sooooo Python args it is!
